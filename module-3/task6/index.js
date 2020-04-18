@@ -4,4 +4,6 @@ const lengthName = (name.length);
 const lengthSurname = (surname.length);
 if (lengthName > 4 && lengthSurname > 5) {
     alert(lengthName + lengthSurname);
+} else {
+    alert('Что-то не так');
 }
